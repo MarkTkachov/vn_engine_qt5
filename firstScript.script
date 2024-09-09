@@ -1,0 +1,43 @@
+SCENE "scn/room.png"
+PLAY MUSIC "snd/rose.mp3"
+
+SHOW "spr/nan_1.png" AT 50 50 AS nanjo1
+"Nanjo" "....You've.. been indulging in alcohol again, haven't you?"
+"The old physician let out a sigh as he removed the stethoscope."
+HIDE nanjo1
+
+"Two elderly men could be seen in thedimly lit study, which was filled with dust and a sickly sweet stench."
+
+SCENE "scn/libr.png"
+
+"In the corner of this room, which was much larger than what most people would call a study, there was an expensive-looking bed, a man undergoing a medical examination, and the physician conducting it."
+"There was also what appeared to be a servant watching over the whoe scene."
+
+SHOW "spr/kin_1.png" AT 500 40 AS kinzo1
+
+"Kinzo" "The bottle is my friend."
+"Kinzo" "It si no less of a friend than you, and it has stood by my side even longer than you have."
+"The man who had bared his chest for the stethoscope spoke unapologetically as he straightned out his clothes."
+
+SHOW "spr/nan_2.png" AT 50 50 AS nanjo1
+
+"Nanjo" "........Kinzo-san. ...Your body only appears to be well thanks to the effects of the medicine. However, if tou continue to drink such strong spirits, the treatment will become meaningless. ...Trust my judjment. temper your drinking."
+
+HIDE kinzo1
+SHOW "spr/kin_3.png" AT 500 40 AS kinzo2
+
+"Kinzo" "I thank you, though only for the sentiment, my friend. ....Genji. Another glass. water it down slightly. That way Nanjo can save face."
+"Genji" "Are you sure?"
+"After eyeing both the master who demanded the alcohol and his doctor who forbade it, Genji, the old butler, silently gave a slight nod and carried out his master's orders faithfully."
+
+PLAY MUSIC "snd/bgm2.mp3"
+"That was the end of demonstration section."
+"You can leave or watch some memes."
+
+
+OPTION "See some memes" TO "scripts/memes.script"
+OPTION "End demonstration" TO "scripts/end.script"
+OPTION "Sahist" TO "scripts/sahist.script"
+STOP
+
+END

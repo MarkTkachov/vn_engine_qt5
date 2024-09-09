@@ -1,0 +1,6 @@
+SCENE "scn/win_xp.jpg"
+SHOW "spr/cat.png" AT 300 100 AS cat
+"Подивіться яка гарна кішечка."
+
+"This is the end of example"
+END

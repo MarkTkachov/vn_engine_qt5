@@ -1,0 +1,4 @@
+SCENE "scn/room.png"
+PLAY MUSIC "snd/bgm2.mp3"
+"This is the end of example"
+END

@@ -1,0 +1,21 @@
+SCENE "scn/city.jpg"
+SHOW "spr/monsoon.png" AT 100 50 AS sus
+SHOW "spr/raiden.png" AT 700 50 AS jack
+
+"???" "My name is Monsoon, of the sussy impostors"
+"Raiden" "Please, stop"
+"MonSUS" "Haha, NO"
+"Raiden" "There is something genuinely wrong with you"
+"MonSUS" "It's just a little trolling, Jack"
+"MonSUS" "You're in a land of free, after all"
+"1 minute later..."
+"MonSUS" "It's cringe or be cringe, Jack. Soon you'll understand"
+PLAY SOUND "snd/free_will.mp3"
+"MonSUS" "Free will is a myth, religion is a joke"
+PLAY SOUND "snd/pawns.mp3"
+"MonSUS" "We're all pawns, controlled by something greater"
+PLAY SOUND "snd/memes_dna.mp3"
+"MonSUS" "MEMES, the DNA of the soul!"
+
+OPTION "The end" TO "scripts/end.script"
+STOP

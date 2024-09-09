@@ -1,0 +1,4 @@
+SCENE "scn/libr.png"
+PLAY MUSIC "snd/rose.mp3"
+"There was also what appeared to be a servant watching over the whoe scene."
+GOTO "firstScript.script" SKIP 14
