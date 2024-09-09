@@ -28,7 +28,7 @@ To install them, you need to execute the following commands (Fedora Linux):
 
 ```bash
 $ sudo dnf install python3-pip
-$ pip install --upgrade wheel
+$ pip3 install --upgrade wheel
 $ pip3 install PyQt5 playsound pygame
 ```
  
